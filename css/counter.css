@@ -1,0 +1,45 @@
+
+
+
+
+.counter {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: rgba(241, 78, 149, 0.8);
+  margin: 0 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  animation: pulse 1s ease infinite;
+   margin-bottom: 2em;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.counter span {
+  display: block;
+  font-size: 3.5rem;
+  margin: 4 4px;
+
+}
+
+
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
